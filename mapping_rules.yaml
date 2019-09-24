@@ -1,0 +1,23 @@
+# This file defines mappings between ROS 1 and ROS 2 interfaces.
+# It is used with the ros1_bridge to allow for communcation between ROS 1 and ROS 2.
+
+-
+  ros1_package_name: 'ros2_control_interfaces'
+  ros1_message_name: 'JointCommands'
+  ros2_package_name: 'ros2_control_interfaces'
+  ros2_message_name: 'JointCommands'
+-
+  ros1_package_name: 'ros2_control_interfaces'
+  ros1_message_name: 'JointControl'
+  ros2_package_name: 'ros2_control_interfaces'
+  ros2_message_name: 'JointControl'
+-
+  ros1_package_name: 'ros2_control_interfaces'
+  ros1_message_name: 'JointNames'
+  ros2_package_name: 'ros2_control_interfaces'
+  ros2_message_name: 'JointNames'
+-
+  ros1_package_name: 'ros2_control_interfaces'
+  ros1_message_name: 'PidParameters'
+  ros2_package_name: 'ros2_control_interfaces'
+  ros2_message_name: 'PidParameters'
