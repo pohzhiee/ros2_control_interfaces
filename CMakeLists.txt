@@ -18,12 +18,14 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointCommands.msg"
   "msg/JointControl.msg"
   "msg/JointNames.msg"
   "msg/PidParameters.msg"
+  DEPENDENCIES std_msgs
 )
 
 install(
