@@ -3,19 +3,9 @@
 
 -
   ros1_package_name: 'ros2_control_interfaces'
-  ros1_message_name: 'JointCommands'
-  ros2_package_name: 'ros2_control_interfaces'
-  ros2_message_name: 'JointCommands'
--
-  ros1_package_name: 'ros2_control_interfaces'
   ros1_message_name: 'JointControl'
   ros2_package_name: 'ros2_control_interfaces'
   ros2_message_name: 'JointControl'
--
-  ros1_package_name: 'ros2_control_interfaces'
-  ros1_message_name: 'JointNames'
-  ros2_package_name: 'ros2_control_interfaces'
-  ros2_message_name: 'JointNames'
 -
   ros1_package_name: 'ros2_control_interfaces'
   ros1_message_name: 'PidParameters'

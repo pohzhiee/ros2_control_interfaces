@@ -1,4 +1,4 @@
 std_msgs/Header header
 
-string[] joint_names
-float64[] desired_positions
+string[] joints
+float64[] goals
