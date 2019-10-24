@@ -23,6 +23,7 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointControl.msg"
   "msg/PidParameters.msg"
+  "srv/GetCurrentSimTime.srv"
   DEPENDENCIES std_msgs
 )
 
