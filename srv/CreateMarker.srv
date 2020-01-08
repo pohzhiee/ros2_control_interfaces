@@ -1,4 +1,4 @@
-string name                       # Name of the Gazebo model to be moved
+uint32 id                         # Name of the Gazebo model to be moved
 
 float64 x                         # Position to be moved to
 float64 y
@@ -6,6 +6,7 @@ float64 z
 float64 roll
 float64 pitch
 float64 yaw
+float64 diameter
 ---
 bool success                      # Return true if move is successful.
 string status_message             # Comments if available.

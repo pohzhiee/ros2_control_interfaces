@@ -24,7 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JointControl.msg"
   "msg/PidParameters.msg"
   "srv/GetCurrentSimTime.srv"
-  "srv/MoveModel.srv"
+  "srv/CreateMarker.srv"
   DEPENDENCIES std_msgs
 )
 
