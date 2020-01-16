@@ -25,6 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PidParameters.msg"
   "srv/GetCurrentSimTime.srv"
   "srv/CreateMarker.srv"
+  "srv/RandomPositions.srv"
   DEPENDENCIES std_msgs
 )
 
